@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+.big-shoulders {
+  font-family: "Big Shoulders", sans-serif;
+}
+
+.outfit {
+  font-family: "Outfit", sans-serif;
+}
+
+:root {
+  --color-camel: #D5966C;
+  --color-dark: #151515;
+  --color-light: #444444;
+}
+
+h1, h2, h3 {
+  font-family: "Big Shoulders";
+}
+
+p {
+  font-family: "Outfit";
+  font-weight: 200;
+  font-size: 18px;
+}
+

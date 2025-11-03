@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <style>
+     @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Outfit:wght@100..900&display=swap');
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern art gallery</title>
+  </head>
+  <body>
+    <header class="mb-0 md:flex">
+      <picture class="md:relative md:w-full">
+
+        <source srcset="/fotos/header_bg.png"
+        media="(max-width: 767px)"
+        type="image/png">
+
+        <source srcset="/fotos/header_bg_md.png"
+        media="(min-width: 768px)"
+        type="image/png">
+
+        <source srcset="/fotos/header_bg_md.png"
+        media="(min-width: 1280px)">
+
+        <img class="md:w-[437px] xl:w-[540px]" src="/fotos/header_bg.png" alt="fondo_gallery">
+
+      </picture>
+      <div class="flex flex-col px-4 py-8 gap-8 mb-0 
+                  md:absolute md:z-10 md:mt-[145px] md:mr-10 right-0 md:p-0">
+        <h1 class="text-6xl font-black">MODERN <br> ART GALLERY</h1>
+        <p>The arts in the collection of the Modern Art <br> Gallery all started from a spark of <br> inspiration. Will these pieces inspire you? <br> Visit us and find out.</p>
+        <a href="/location.html"><img class="w-[260px] h-[72px]" src="/buttons/button1.png" alt="location_button"></a>
+      </div>
+    </header>
+    <section class="px-4 mt-[120px] md:px-10">
+      <div class="md:flex md:flex-row-reverse md:justify-between">
+       <picture>
+        <img class="mb-[25px] md:w-[398px]" src="/fotos/background2.png" alt="">
+       </picture>
+        <div class="md:w-[223px] md:flex md:flex-col self-center">
+          <h2 class="text-[50px] font-black leading-[45px] mb-[21px]">YOUR DAY <br> AT THE GALLERY</h2>
+          <p class="mb-8 sm:leading-7">Wander through our distinct collections and find new insights about our artists. 
+            Dive into the details of their creative process.</p>
+       </div>
+      </div>
+      <div class="md:flex md:h-[720px] md:gap-[11px]">
+        <picture class="md:h-full">
+          <img class="mb-4 md:w-[398px] md:object-cover md:h-full md:mb-0" src="/fotos/background3.png" alt="bench">
+        </picture>
+       <div class="md:w-[280px] md:flex md:flex-col md:gap-[11px]">
+          <picture>
+
+            <source srcset="/fotos/bg_museum_md.png"
+            media="(min-width:768px)"
+            type="image/png">
+
+            <img src="/fotos/background4.png" alt="museum">
+
+          </picture>
+          <div class="bg-(--color-dark) mt-4 md:mt-0">
+            <div class="flex flex-col gap-6 px-6 pt-12 pb-[47px] 
+                        md:px-7 md:h-[396px] md:py-[85px]">
+              <h2 class="text-white text-[50px] font-black leading-[45px]">COME & BE INSPIRED</h2>
+              <p class="text-white">We're excited to welcome you to our gallery and see how our collections
+                  influence you.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="flex flex-col gap-[38px] bg-(--color-dark) mt-[120px] px-8 py-12 
+                 md:justify-between md:gap-0 md:flex-row md:py-14 md:px-10">
+      <div class="flex flex-col gap-[38px] md:flex md:gap-[65px]">
+        <img class="w-[110.05px] md:w-[100px] md:self-baseline" src="/icons/brand.svg" alt="brand">
+        <p class="leading-7 text-[16px] text-white md:w-[281px]">The Modern Art Gallery is free to all visitors and 
+          open seven days a week from 8am to 9pm. Find us at 99 King Street, Newport, USA.</p>
+      </div>
+      <div>
+          <img src="/icons/socials.svg" alt="socials">
+      </div>
+      
+    </footer>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
