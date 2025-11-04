@@ -36,7 +36,7 @@
               <h1 class="text-6xl font-black
                     xl:text-8xl xl:text-white">MODERN <br> ART GALLERY</h1>
         </div>
-        <div class="md:flex md:flex-col md:gap-12 xl:flex xl:flex-col xl:gap-16">
+        <div class="flex flex-col gap-8 md:flex md:flex-col md:gap-12 xl:flex xl:flex-col xl:gap-16">
               <p>The arts in the collection of the Modern Art <br> Gallery all started from a spark of <br> inspiration. Will these pieces inspire you? <br> Visit us and find out.</p>
               <a href="/location.html"><img class="w-[260px] h-[72px]" src="/buttons/button1.png" alt="location_button"></a>
         </div>
@@ -70,25 +70,27 @@
                       xl:w-[635px]" src="/fotos/background3.png" alt="bench">
         </picture>
        <div class="md:w-[280px] md:flex md:flex-col md:gap-[11px]
-                  xl:w-[445px]">
+                   xl:w-[445px] xl:flex xl:flex-col xl:gap-[30px]">
           <picture class="xl:h-[313px]">
 
             <source srcset="/fotos/bg_museum_md.png"
             media="(min-width:768px)"
             type="image/png">
 
-            <source srcset="/fotos/background4.png"
+            <source srcset="/fotos/museum_xl.png"
             media="(min-width:1280px)"
             type="image/png">
 
-            <img src="/fotos/background4.png" alt="museum">
+            <img class="xl:object-cover xl:w-[445px] xl:h-[313px]" src="/fotos/background4.png" alt="museum">
 
           </picture>
-          <div class="bg-(--color-dark) mt-4 md:mt-0">
+          <div class="bg-(--color-dark) mt-4 md:mt-0 xl:h-[377px]">
             <div class="flex flex-col gap-6 px-6 pt-12 pb-[47px] 
-                        md:px-7 md:h-[396px] md:py-[85px]">
-              <h2 class="text-white text-[50px] font-black leading-[45px]">COME & BE INSPIRED</h2>
-              <p class="text-white">We're excited to welcome you to our gallery and see how our collections
+                        md:px-7 md:h-[396px] md:py-[85px]
+                        xl:px-12 xl:py-[65px]">
+              <h2 class="text-white text-[50px] font-black leading-[45px]
+              xl:text-6xl xl:leading-[60px]">COME & BE INSPIRED</h2>
+              <p class="text-white text-[18px] xl:text-[22px]">We're excited to welcome you to our gallery and see how our collections
                   influence you.</p>
             </div>
           </div>
@@ -96,10 +98,14 @@
       </div>
     </section>
     <footer class="flex flex-col gap-[38px] bg-(--color-dark) mt-[120px] px-8 py-12 
-                 md:justify-between md:gap-0 md:flex-row md:py-14 md:px-10">
-      <div class="flex flex-col gap-[38px] md:flex md:flex-row md:gap-[65px]">
-        <img class="w-[110.05px] md:w-[100px] md:self-baseline" src="/icons/brand.svg" alt="brand">
-        <p class="leading-7 text-[16px] text-white md:w-[281px]">The Modern Art Gallery is free to all visitors and 
+                 md:justify-between md:gap-0 md:flex-row md:py-14 md:px-10
+                 xl:px-[165px]">
+      <div class="flex flex-col gap-[38px] md:flex md:flex-row md:gap-[65px]
+                  xl:flex xl:gap-[140px]">
+          <img class="w-[110.05px] md:w-[100px] md:self-baseline
+                      xl:w-40" src="/icons/brand.svg" alt="brand">
+        <p class="leading-7 text-[16px] text-white md:w-[281px]
+                  xl:w-[430px]">The Modern Art Gallery is free to all visitors and 
           open seven days a week from 8am to 9pm. Find us at 99 King Street, Newport, USA.</p>
       </div>
       <div>

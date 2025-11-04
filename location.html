@@ -9,25 +9,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Modern art gallery</title>
     <body>
-        <header class="m-0">
-            <a class="absolute left-10" href="/index.html"><img class="w-[264px]" src="/buttons/button2.svg" alt="back_to_home"></a>
+        <header class="m-0 xl:h-[600px]">
+            <a class="absolute left-10 xl:left-[156px]" href="/index.html"><img class="w-[264px]" src="/buttons/button2.svg" alt="back_to_home"></a>
             <picture>
-                <source srcset="/fotos/map_md.png">
+                <source srcset="/fotos/map_xl.png"
+                media="(min-width: 1280px)"
+                type="image/png">
+                <source srcset="/fotos/map_md.png"
+                media="(min-width: 768px)"
+                type="image/png">
                 <img class="relative top-0 -z-10" src="/fotos/map.png" alt="mapa">
             </picture>
         </header>
         <section class="m-0 bg-(--color-dark) px-4 pt-12 pb-14 
-                        md:px-10 md:pt-[88px] md:pb-20">
-            <div class="md:flex md:w-[689px] md:justify-between">
+                        md:px-10 md:pt-[88px] md:pb-20
+                        xl:px-[165px] xl:pt-[104px] xl:pb-32">
+            <div class="md:flex md:w-[689px] md:justify-between
+                         xl:w-[1110px]">
              <h1 class="text-white text-[50px] font-black mb-0 
-                        md:w-[223px] md:leading-[50px]">OUR LOCATION</h1>
+                        md:w-[223px] md:leading-[50px]
+                        xl:text-[70px] xl:leading-[70px]">OUR LOCATION</h1>
                 <div class="flex flex-col gap-5 mt-12 md:mt-0 md:w-[398px]">
-                    <h3 class="text-(--color-camel) text-[32px] mt-0">99 KING STREET</h3>
-                    <p class="text-white text-[18px]">
+                    <h3 class="text-(--color-camel) text-[32px] mt-0
+                    xl:text-4xl xl:font-black">99 KING STREET</h3>
+                    <p class="text-white text-[18px]
+                              xl:text-[22px] xl:leading-8">
                         Newport <br>
                         RI 02840 <br>
                         United States of America</p>
-                    <p class="text-white text-[18px]"> 
+                    <p class="text-white text-[18px]
+                             xl:text-[22px] xl:leading-8"> 
                         Our newly opened gallery is located near 
                         the Edward King House on 99 King Street, 
                         the Modern Art Gallery is free to all visitors 
@@ -37,13 +48,14 @@
             </div>
         </section>
         <footer class="bg-(--color-camel) px-8 py-12 flex flex-col gap-[38px] 
-                        md:flex-row md:justify-between md:gap-0 md:py-14 md:px-10">
-            <div class="md:flex md:gap-[65px]">
+                        md:flex-row md:justify-between md:gap-0 md:py-14 md:px-10
+                        xl:h-[244px] xl:px-[165px] xl:py-20">
+            <div class="md:flex md:gap-[65px]
+                        xl:w-[730px] xl:flex xl:gap-[140px]">
                 <img class="w-[110.05px] h-10 
-                            md:w-[100px] md:self-baseline" 
-                            src="/icons/brand_b.svg" alt="brand_black">
+                            md:w-[100px] md:self-baseline xl:w-40 xl:h-[58px]" src="/icons/brand_b.svg" alt="brand_black">
                 <p class="text-[16px] leading-7 
-                            md:w-[281px]">
+                            md:w-[281px] xl:w-[430px]">
                     The Modern Art Gallery is free to all visitors
                     and open seven days a week from 8am to 9pm. 
                     Find us at 99 King Street, Newport, USA.
